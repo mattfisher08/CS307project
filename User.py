@@ -31,9 +31,6 @@ class User:
 		self.interactions = []
 		self.recent_topics = []
         
-		if(args):
-			self.username = args[0]
-        
 		#constant variables
 		self.NUMBER_OF_RECENT_TOPICS_TO_TRACK = 10
 		
